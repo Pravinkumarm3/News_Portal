@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "JNIsCTYdGg4fEHQwNnDAtsDCqNbFSfkYEoT6HcUKbRU=",
+  "Source": "News_Portal",
+  "BasePath": "_content/News_Portal",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "News_Portal\\wwwroot",
+      "Source": "News_Portal",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\News_Portal\\News_Portal\\News_Portal\\wwwroot\\",
+      "BasePath": "_content/News_Portal",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\News_Portal\\News_Portal\\News_Portal\\wwwroot\\files\\66a99b46-21bb-42e9-901d-dd13bc89ec0c.jpg",
+      "SourceId": "News_Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\News_Portal\\News_Portal\\News_Portal\\wwwroot\\",
+      "BasePath": "_content/News_Portal",
+      "RelativePath": "files/66a99b46-21bb-42e9-901d-dd13bc89ec0c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\66a99b46-21bb-42e9-901d-dd13bc89ec0c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\News_Portal\\News_Portal\\News_Portal\\wwwroot\\files\\b7f81270-e8ff-4bbe-864b-9b09db432e69.jpg",
+      "SourceId": "News_Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\News_Portal\\News_Portal\\News_Portal\\wwwroot\\",
+      "BasePath": "_content/News_Portal",
+      "RelativePath": "files/b7f81270-e8ff-4bbe-864b-9b09db432e69.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\b7f81270-e8ff-4bbe-864b-9b09db432e69.jpg"
+    }
+  ]
+}

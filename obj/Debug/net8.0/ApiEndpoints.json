@@ -1,0 +1,640 @@
+[
+  {
+    "ContainingType": "News_Portal.Controllers.AuthsController",
+    "Method": "Login",
+    "RelativePath": "api/Auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "News_Portal.ModelsDto.LoginsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.AuthsController",
+    "Method": "Register",
+    "RelativePath": "api/Auths/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "News_Portal.ModelsDto.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Bollywood_NewsController",
+    "Method": "Deletedata",
+    "RelativePath": "api/Bollywood_News/Deletedata",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Bollywood_NewsController",
+    "Method": "GetData",
+    "RelativePath": "api/Bollywood_News/GetData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Bollywood_NewsController",
+    "Method": "PostData",
+    "RelativePath": "api/Bollywood_News/PostData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bollywood_News",
+        "Type": "News_Portal.ModelsDto.Bollywood_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Bollywood_NewsController",
+    "Method": "UpdateData",
+    "RelativePath": "api/Bollywood_News/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bollywood_",
+        "Type": "News_Portal.ModelsDto.Bollywood_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Business_NewsController",
+    "Method": "DeleteData",
+    "RelativePath": "api/Business_News/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Business_NewsController",
+    "Method": "GetBusiness",
+    "RelativePath": "api/Business_News/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Business_NewsController",
+    "Method": "GetBusiness",
+    "RelativePath": "api/Business_News/GetBusiness",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newstype",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Business_NewsController",
+    "Method": "PostData",
+    "RelativePath": "api/Business_News/PostData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_NewsDto",
+        "Type": "News_Portal.ModelsDto.Business_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Business_NewsController",
+    "Method": "UpdateData",
+    "RelativePath": "api/Business_News/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "business_",
+        "Type": "News_Portal.ModelsDto.Business_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.FilesController",
+    "Method": "DeleteData",
+    "RelativePath": "api/Files/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.FilesController",
+    "Method": "PostImages",
+    "RelativePath": "api/Files/files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filess",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.FilesController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Files/GetAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.ImageUploadedController",
+    "Method": "DeleteData",
+    "RelativePath": "api/ImageUploaded/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.ImageUploadedController",
+    "Method": "GetAllData",
+    "RelativePath": "api/ImageUploaded/GetAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.ImageUploadedController",
+    "Method": "PostImages",
+    "RelativePath": "api/ImageUploaded/PostAllData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filess",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "trendingId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.ImageUploadedController",
+    "Method": "UpdateData",
+    "RelativePath": "api/ImageUploaded/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "files",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrendingId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.NewsId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.NewsTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.NewsDiscription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.FullNews",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.Thumbnail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.NewsStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.NewsDateTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.CreatedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.CreatedOn",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.ModifiedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.ModifiedOn",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "trending_News.Images",
+        "Type": "System.Collections.Generic.List\u00601[[News_Portal.ModelsDtos.MultiplePhotoUploaddto, News_Portal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Latest_NewsController",
+    "Method": "DeleteData",
+    "RelativePath": "api/Latest_News/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Latest_NewsController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Latest_News/GetAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Latest_NewsController",
+    "Method": "GetById",
+    "RelativePath": "api/Latest_News/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Latest_NewsController",
+    "Method": "PostData",
+    "RelativePath": "api/Latest_News/PostData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_NewsDtos",
+        "Type": "News_Portal.ModelsDtos.Latest_NewsDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Latest_NewsController",
+    "Method": "UpdateData",
+    "RelativePath": "api/Latest_News/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewsDtos",
+        "Type": "News_Portal.ModelsDtos.Latest_NewsDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Politics_NewsController",
+    "Method": "DeleteNews",
+    "RelativePath": "api/Politics_News/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Politics_NewsController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Politics_News/GetAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Politics_NewsController",
+    "Method": "PostNews",
+    "RelativePath": "api/Politics_News/PostNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_NewsDto",
+        "Type": "News_Portal.ModelsDto.Politics_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Politics_NewsController",
+    "Method": "UpdatedData",
+    "RelativePath": "api/Politics_News/UpdatedData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_NewsDto",
+        "Type": "News_Portal.ModelsDto.Politics_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Sports_NewsController",
+    "Method": "DataDeleted",
+    "RelativePath": "api/Sports_News/DataDeleted",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Sports_NewsController",
+    "Method": "DataUpdated",
+    "RelativePath": "api/Sports_News/DataUpdated",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sports_",
+        "Type": "News_Portal.ModelsDto.Sports_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Sports_NewsController",
+    "Method": "GetNewsData",
+    "RelativePath": "api/Sports_News/GetNewsData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.Sports_NewsController",
+    "Method": "PostNewsData",
+    "RelativePath": "api/Sports_News/PostNewsData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sports_NewsDto",
+        "Type": "News_Portal.ModelsDto.Sports_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.TrendingNewsController",
+    "Method": "TrendingNews",
+    "RelativePath": "api/TrendingNews/AddTrending",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trending_NewsDto",
+        "Type": "News_Portal.ModelsDto.Trending_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.TrendingNewsController",
+    "Method": "DeleteData",
+    "RelativePath": "api/TrendingNews/DeleteData",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.TrendingNewsController",
+    "Method": "GetById",
+    "RelativePath": "api/TrendingNews/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.TrendingNewsController",
+    "Method": "GetTending",
+    "RelativePath": "api/TrendingNews/GetTrendings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.TrendingNewsController",
+    "Method": "UpdateData",
+    "RelativePath": "api/TrendingNews/UpdateData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trending_NewsDto",
+        "Type": "News_Portal.ModelsDto.Trending_NewsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "News_Portal.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[News_Portal.WeatherForecast, News_Portal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
